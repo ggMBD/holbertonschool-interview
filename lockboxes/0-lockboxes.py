@@ -1,11 +1,14 @@
 #!/usr/bin/python3
+""" Lockboxes """
+
 
 def canUnlockAll(boxes):
     """
     Determines if all the boxes in the given list can be unlocked.
 
     Args:
-        boxes (list): A list of lists representing the lockboxes. Each inner list contains the keys to other boxes.
+        boxes (list): A list of lists representing the lockboxes.
+        Each inner list contains the keys to other boxes.
 
     Returns:
         bool: True if all boxes can be unlocked, False otherwise.
